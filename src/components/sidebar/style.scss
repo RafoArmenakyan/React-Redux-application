@@ -1,0 +1,15 @@
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+        color: white;
+        font-size: 19px;
+        font-weight: 600;
+        margin: 20px 30px;
+        text-decoration: none;
+    }
+}
